@@ -1,0 +1,68 @@
+Source: genteshare
+Section: utils
+Priority: optional
+Maintainer: Holger Schinzel <holger@gentecoin.com>
+Uploaders: Holger Schinzel <holger@gentecoin.com>
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ bash-completion,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libevent-dev,
+ libboost-system1.48-dev | libboost-system-dev (>> 1.35),
+ libboost-filesystem1.48-dev | libboost-filesystem-dev (>> 1.35),
+ libboost-program-options1.48-dev | libboost-program-options-dev (>> 1.35),
+ libboost-thread1.48-dev | libboost-thread-dev (>> 1.35),
+ libboost-test1.48-dev | libboost-test-dev (>> 1.35),
+ libboost-chrono1.48-dev | libboost-chrono-dev (>> 1.35),
+ qt4-qmake,
+ libqt4-dev,
+ libqrencode-dev,
+ libprotobuf-dev, protobuf-compiler,
+ python
+Standards-Version: 3.9.2
+Homepage: https://www.gentecoin.com/
+Vcs-Git: git://github.com/genteshare-project/genteshare.git
+Vcs-Browser: https://github.com/genteshare-project/genteshare
+
+Package: genteshared
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ Genteshare is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Genteshare uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Genteshare Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides the daemon, genteshared, and the CLI tool
+ genteshare-cli to interact with the daemon.
+
+Package: genteshare-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ Genteshare is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Genteshare uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Genteshare Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides Genteshare-Qt, a GUI for Genteshare based on Qt.
+
+Package: genteshare-tx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer digital currency - standalone transaction tool
+ Genteshare is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Genteshare uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Genteshare Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides genteshare-tx, a command-line transaction creation
+ tool which can be used without a genteshare daemon.  Some means of
+ exchanging minimal transaction data with peers is still required.

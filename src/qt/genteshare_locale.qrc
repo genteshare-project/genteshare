@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/genteshare_bg.qm</file>
+        <file alias="de">locale/genteshare_de.qm</file>
+        <file alias="en">locale/genteshare_en.qm</file>
+        <file alias="es">locale/genteshare_es.qm</file>
+        <file alias="fi">locale/genteshare_fi.qm</file>
+        <file alias="fr">locale/genteshare_fr.qm</file>
+        <file alias="it">locale/genteshare_it.qm</file>
+        <file alias="ja">locale/genteshare_ja.qm</file>
+        <file alias="pl">locale/genteshare_pl.qm</file>
+        <file alias="pt">locale/genteshare_pt.qm</file>
+        <file alias="ru">locale/genteshare_ru.qm</file>
+        <file alias="sk">locale/genteshare_sk.qm</file>
+        <file alias="sv">locale/genteshare_sv.qm</file>
+        <file alias="vi">locale/genteshare_vi.qm</file>
+        <file alias="zh_CN">locale/genteshare_zh_CN.qm</file>
+        <file alias="zh_TW">locale/genteshare_zh_TW.qm</file>
+    </qresource>
+</RCC>

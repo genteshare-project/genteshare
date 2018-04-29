@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Genteshare
+Comment=Genteshare P2P Cryptocurrency
+Comment[fr]=Genteshare, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Genteshare, eşten eşe kriptografik sanal para birimi
+Exec=genteshare-qt %u
+Terminal=false
+Type=Application
+Icon=genteshare128
+MimeType=x-scheme-handler/genteshare;
+Categories=Office;Finance;
